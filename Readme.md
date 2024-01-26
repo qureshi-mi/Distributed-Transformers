@@ -3,11 +3,11 @@
 The code implements the experiments performed in [paper]. It demonstrates the performance comparison of P2P-FT with locally trained Local-FT at each node. We include the experiments for the classification of Flowers, Pets, CIFAR-10, and CIFAR100 datasets.
 
 
-# Dependencies and Setup
+## Dependencies and Setup
 All code runs on Python 3.6.7 with Pytorch and timm libraries installed.
 
 
-# Running Experiments
+## Running Experiments
 There are three main folders:
 1) vit:  for distributed fine-tuning of vit_small_patch16_224 model.
 2) deit: for distributed fine-tuning of deit_small_patch16_224 model.
